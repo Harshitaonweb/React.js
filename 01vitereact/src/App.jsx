@@ -1,13 +1,13 @@
-
-
-
-
+import Cookie from "./cookie";
 
 function App() {
-
   return (
-  <h1>Cookie learning react with vite | HR</h1>
-  )
+    <>
+      <Cookie />
+      <h1>cookie and react</h1>
+      <p>test para</p>
+    </>
+  );
 }
 
-export default App
+export default App;
